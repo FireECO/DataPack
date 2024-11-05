@@ -9,4 +9,4 @@ give @s minecraft:emerald 1
 tellraw @s {"text":"[NPC] Thank you for bringing the cobblestone! Here is your reward!", "color":"green"}
 
 # Update quest progress + 1s cooldown
-scoreboard players set @s QuestProgress 20
+scoreboard players set @s QuestProgressArene 20
