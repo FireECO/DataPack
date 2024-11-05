@@ -1,4 +1,5 @@
-execute as @a run execute store result score @s CobblestoneCount run clear @s minecraft:cobblestone 0
+# Si le joueur a tué les montres, c'est bon
+execute as @s[scores={ZombieCount=5.., CreeperCount=5..}] run function quests:arene_complete
 
-# Check if the player has at least 5 cobblestones and complete the quest if they do
-execute as @a[scores={CobblestoneCount=5..}] run function quests:arene_complete
+#Si le joueur n'a pas tué les monstres, on lui dit de revenir 
+execute as @s[scores={ZombieCount=..4, CreeperCount=..4}] run tellraw @s {"text":"[Brutus] Tue 5 zombies et 5 creepers, puis revient me voir", "color":"red"}
