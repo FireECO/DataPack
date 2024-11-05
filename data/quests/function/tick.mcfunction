@@ -1,5 +1,5 @@
 # If the player has no value for the scoreboard QuestProgressArene, initialise to 0
-execute as @a unless score @s QuestProgressArene matches ..72000 run scoreboard players set @s QuestProgressArene 0
+execute as @a unless score @s QuestProgressArene matches ..400 run scoreboard players set @s QuestProgressArene 0
 
 # If you have a score for QuestProgressArene, it gets ticked -1 until it's 0
 execute as @a if score @s QuestProgressArene matches 1.. run scoreboard players remove @s QuestProgressArene 1
