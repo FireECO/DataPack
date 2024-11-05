@@ -1,0 +1,7 @@
+{
+    "values": [
+        "pack:load",
+        "quests:load",
+        "rewards:load"
+    ]
+}

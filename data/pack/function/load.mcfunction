@@ -1,0 +1,1 @@
+tellraw Rax0_ {"text":"Rax0_'s Datapack loading :","color":"blue", "bold": true}
