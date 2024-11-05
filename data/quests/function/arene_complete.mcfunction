@@ -1,4 +1,3 @@
-
 # Give the player a reward (e.g., an emerald)
 give @s minecraft:emerald 1
 
