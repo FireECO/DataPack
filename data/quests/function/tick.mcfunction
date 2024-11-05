@@ -9,8 +9,8 @@ execute as @a[scores={QuestProgressArene=0}] at @s if entity @p[distance=..3,x=0
 execute as @a[scores={QuestProgressArene=-1}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_check1
 execute as @a[scores={QuestProgressArene=-3}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_start2
 execute as @a[scores={QuestProgressArene=-4}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_check2
-execute as @a[scores={QuestProgressArene=-6}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_start2
-execute as @a[scores={QuestProgressArene=-7}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_check2
+execute as @a[scores={QuestProgressArene=-6}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_start3
+execute as @a[scores={QuestProgressArene=-7}] at @s if entity @p[distance=..3,x=0,y=-60,z=0] run function quests:arene_check3
 
 execute as @a[scores={QuestProgressArene=-2}] at @s if entity @p[distance=3..,x=0,y=-60,z=0] run scoreboard players set @s QuestProgressArene -1
 execute as @a[scores={QuestProgressArene=-5}] at @s if entity @p[distance=3..,x=0,y=-60,z=0] run scoreboard players set @s QuestProgressArene -4
